@@ -113,16 +113,15 @@ Error generating stack: `+i.message+`
         color: #f83369;
     }
 `,nw=()=>ne.jsxs(tw,{children:[ne.jsx(Gf,{to:"/",children:"Home"}),ne.jsx(Gf,{to:"/tweets",children:"Tweets"})]}),rw=St.header`
-    display: flex;
-    gap: 60px;
-    padding: 20px;
-    align-items: center;
-    background-color: #EBD8FF;
-
+  display: flex;
+  gap: 60px;
+  padding: 20px;
+  align-items: center;
+  background-color: #0abab5;
 `,ow=St(qa)`
-    text-decoration: none;
-    color: #00212f;
-`,iw=()=>ne.jsxs(rw,{children:[ne.jsx(ow,{to:"/",children:ne.jsx(g1,{size:"40"})}),ne.jsx(nw,{})]}),lw=()=>ne.jsxs("div",{children:[ne.jsx(iw,{}),ne.jsx(P.Suspense,{fallback:null,children:ne.jsx(n1,{})})]}),uw=P.lazy(()=>Hh(()=>import("./Home-80862565.js"),["assets/Home-80862565.js","assets/index.module-d9312975.js"])),sw=P.lazy(()=>Hh(()=>import("./Tweets-6627bd61.js"),["assets/Tweets-6627bd61.js","assets/index.module-d9312975.js"]));function aw(){return ne.jsx(o1,{children:ne.jsxs(ci,{path:"/",element:ne.jsx(lw,{}),children:[ne.jsx(ci,{index:!0,element:ne.jsx(uw,{})}),ne.jsx(ci,{path:"/tweets",element:ne.jsx(sw,{})})]})})}St.header`
+  text-decoration: none;
+  color: #00212f;
+`,iw=()=>ne.jsxs(rw,{children:[ne.jsx(ow,{to:"/",children:ne.jsx(g1,{size:"40"})}),ne.jsx(nw,{})]}),lw=()=>ne.jsxs("div",{children:[ne.jsx(iw,{}),ne.jsx(P.Suspense,{fallback:null,children:ne.jsx(n1,{})})]}),uw=P.lazy(()=>Hh(()=>import("./Home-16486014.js"),["assets/Home-16486014.js","assets/index.module-6925b006.js"])),sw=P.lazy(()=>Hh(()=>import("./Tweets-c7d2dc0b.js"),["assets/Tweets-c7d2dc0b.js","assets/index.module-6925b006.js"]));function aw(){return ne.jsx(o1,{children:ne.jsxs(ci,{path:"/",element:ne.jsx(lw,{}),children:[ne.jsx(ci,{index:!0,element:ne.jsx(uw,{})}),ne.jsx(ci,{path:"/tweets",element:ne.jsx(sw,{})})]})})}St.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
